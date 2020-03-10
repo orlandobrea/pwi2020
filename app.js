@@ -5,7 +5,7 @@ var hbs = require('express-handlebars');
 var session = require('express-session');
 var cors = require('cors');
 
-app.use(session({secret: 'fds8yksahfkj2389kjfhsdfsdf'}));
+app.use(session({secret: 'fds8yksahfkj2389kjfhsdfsdfdsadsadsa'}));
 
 mongoose.Promise = global.Promise;
 
